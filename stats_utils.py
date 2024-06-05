@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-
-# This version 25/03/2016
-
 # Statistical utilities
 import math
 
