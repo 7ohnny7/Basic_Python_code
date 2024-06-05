@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 
 """
 Utilities for processing tables (list of lists)
