@@ -7,13 +7,13 @@ percentage = '{:.0%}'.format(rate)
 payment = 321
 
 # Input/Output: mortgage, a positive number, same currency
-mortgage = 57800
+mortgage = 156780
 
-print('Outstanding mortgage:', mortgage)
+print('Outstanding mortgage:'\t, round(mortgage, 2))
 while not (mortgage == 0 or mortgage < 0):
     interest = mortgage * rate // 12
     mortgage = mortgage + interest - payment
-    print('Outstanding mortgage:', mortgage)
+    print('Outstanding mortgage:\t', round(mortgage, 2))
 
 print(percentage)
 print (rate)
